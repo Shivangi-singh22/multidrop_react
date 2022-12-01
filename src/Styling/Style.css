@@ -1,0 +1,31 @@
+/* .jumbotron{
+    background: rgb(184, 161, 189);
+    color: rgb(31, 28, 22);
+    padding: 70px 30px; 
+    margin: 0px auto;
+  } */
+  .navbar{
+    background: rgb(171, 124, 177);
+    margin: 0px auto;
+    padding: 15px auto;
+    /* position: relative; */
+  }
+  
+  footer{
+    background-color: rgb(220, 200, 233);
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+  }
+  .copyright{
+    justify-content: center;
+    display: flex;
+  }
+  .social{
+    justify-content: space-between;
+  }
+  address{
+    justify-content: center;
+  }

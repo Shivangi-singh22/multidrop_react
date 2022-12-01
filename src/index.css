@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.preview-values{
+  color: rgb(20, 20, 20);
+  margin-top: 21%;
+  position:static;
+  justify-content: space-between;
+  font-size: medium;
+  text-align: center;
+}
+.App {
+  text-align: center;
+}
+
+.loader{
+  border: 16px solid #f0e9e9; 
+  border-top: 16px solid #e5d5e6; 
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  animation: spin 2s linear infinite;
+  margin-left: 48%;
+  margin-top: 0%;
+}
+.progress{
+  width: 50%;
+  margin:2%;
+  margin-left: 25%;
+}
+
+.multi{
+  z-index: auto;
+  color: rgb(60, 48, 65);
+  background: fixed;
+}
+.app-select{
+  color: rgb(51, 75, 65);
+  padding-top: 20px 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+.button{
+  cursor: pointer;
+  background:scroll;
+  padding:10px 15px;
+  background-color: rgb(224, 210, 228);
+  justify-content: center;
+  display: flex;
+  /* margin-left: 60%; */
+  /* margin-top: 5%; */
+  margin:20%;
+  margin-left: 50%;
+  z-index: 1;
+}
+
+.button:hover{
+  background-color:rgb(242, 213, 247);
+  z-index: 2;
+}
